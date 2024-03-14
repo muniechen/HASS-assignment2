@@ -1,0 +1,211 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+    padding-bottom: hidden;
+    margin-bottom: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #050505;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-right: 2em;
+    padding-left: 2em;
+    color: white;
+    margin-left: 2%;
+    font-size: 25px;
+    line-height:10% ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    max-width: 100vw; /* 最大宽度不超过视口宽度 */
+    max-height: 100vh; /* 最大高度不超过视口高度 */
+    height: auto; /* 高度自动调整以保持图片比例 */
+    width: auto;  /* 宽度自动调整以保持图片比例 */
+}
+.image1{
+    top: 30px;
+    position: relative;
+    left: 50px;
+}
+header ul {
+    position: absolute;
+    right: 5%;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    max-width: 100vw; /* 最大宽度不超过视口宽度 */
+    max-height: 100vh; /* 最大高度不超过视口高度 */
+    height: auto; /* 高度自动调整以保持图片比例 */
+    width: auto;  /* 宽度自动调整以保持图片比例 */
+    
+}
+.news{
+    background-color: darkgray;
+    height: 150px;
+}
+.news h2{
+    height: 40px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 10px;
+    right: 17px;
+    padding-right: 2em;
+    padding-left: 2em;
+    text-indent: 2em;
+    text-align: center;
+}
+.news p{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px ;
+}
+.slogan p{
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 0px;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px ;
+}
+.Idiom ol{
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 0px;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px ;
+}
+.Idiom h3{
+    top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 0px;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 25px ;
+}
+header li {
+    position: relative;
+    right: 0px;
+    line-height: 25px ;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+.news{
+    background-color: rgb(229, 229, 229);
+    color: rgb(0, 0, 0);
+    line-height: 30px ;
+}
+.news2 h2,.news2 p{
+    background-color: rgb(229, 229, 229);
+    length: 50px;
+    line-height: 25px;
+    background-position: center;
+    color: rgb(0, 0, 0);
+}
+.news2 h2{
+    text-align: center;
+    padding-right: 20em;
+    padding-left: -20em;
+    margin-left: -1%;
+    position: relative;
+    line-height:30px;
+}
+.news2 h2,.news2 p,{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 0px;
+    padding-right: 5em;
+    padding-left: 5em;
+    line-height: 50px;
+}
+.news2 p{
+    text-align: center;
+    height: 30px;
+    position: relative;
+    line-height:-30px;
+    bottom: hidden;
+}
+.slogan2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 0px;
+    padding-right: 2em;
+    padding-left: 2em;
+    max-width: 100vw; /* 最大宽度不超过视口宽度 */
+    max-height: 100vh; /* 最大高度不超过视口高度 */
+    height: auto; /* 高度自动调整以保持图片比例 */
+    width: auto;  /* 宽度自动调整以保持图片比例 */
+    line-height: 25px ;
+}
+.news2 h2,h3, p,ol{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: 0px;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+img {
+    max-width: 100vw; /* 最大宽度不超过视口宽度 */
+    max-height: 100vh; /* 最大高度不超过视口高度 */
+    height: auto; /* 高度自动调整以保持图片比例 */
+    width: auto;  /* 宽度自动调整以保持图片比例 */
+}
+
+.image2{
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+    left: 20px;
+    bottom:0;
+    margin:auto;
+    max-width: 100vw; /* 最大宽度不超过视口宽度 */
+    max-height: 100vh; /* 最大高度不超过视口高度 */
+    height: auto; /* 高度自动调整以保持图片比例 */
+    width: auto;  /* 宽度自动调整以保持图片比例 */
+}
+.slogan2 {
+    position: relative;
+    left: 500px;
+    top: -670px;
+    padding-right: 30em;
+    max-width: 100vw; /* 最大宽度不超过视口宽度 */
+    max-height: 100vh; /* 最大高度不超过视口高度 */
+    height: auto; /* 高度自动调整以保持图片比例 */
+    width: auto;  /* 宽度自动调整以保持图片比例 */
+    line-height: 25px ;
+}
